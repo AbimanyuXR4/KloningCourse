@@ -1,19 +1,16 @@
 <div class="page page-homepage light" data-name="homepage">
-    <div class="navbar">
+    <div class="navbar" style="background: linear-gradient(to left, #005bea 0%, #0db2de 100%)">
         <div class="navbar-inner">
             <div class="left">
-                <a href="#" class="link icon-only panel-open" data-panel="left">
-                    <span class="new-notification"></span>
-                    <i class="icon material-icons">menu</i>
-                </a>
-            </div>
-            <div class="title"><img src="img/logo-header.png" alt="" class="header-logo"> </div>
-            <div class="right">
-                <a href="/noticationslist/" class="link icon-only">
-                    <i class="material-icons">notifications_none</i><span class="counts">9+</span>
-                </a>
                 <a class="link icon-only searchbar-enable" data-searchbar=".searchbar-components">
-                    <i class="icon material-icons">search</i>
+                    <i class="icon material-icons" style="color: white;">search</i>
+                </a>
+
+            </div>
+            <div class="title"><p class="text-center" style="color: white;">Home Page</p> </div>
+            <div class="right">
+                <a href="#" class="link icon-only panel-open" data-panel="left">
+                    <i class="icon material-icons" style="color: white;">menu</i>
                 </a>
             </div>
 
@@ -29,7 +26,7 @@
             </form>
         </div>
     </div>
-    <div class="toolbar tabbar toolbar-bottom o-visible">
+    <!-- <div class="toolbar tabbar toolbar-bottom o-visible">
         <div class="toolbar-inner o-visible tabs-max-width">
             <a href="#tab-1" class="tab-link tab-link-active"><i class="material-icons">home</i></a>
             <a href="#tab-2" class="tab-link"><i class="material-icons">insert_chart_outline</i></a>
@@ -37,483 +34,315 @@
             <a href="#tab-4" class="tab-link"><i class="material-icons">widgets</i></a>
             <a href="#tab-5" class="tab-link"><i class="material-icons">account_circle</i></a>
         </div>
-    </div>
+    </div> -->
 
     <div class="tabs">
         <div id="tab-1" class="page-content tab tab-active">
             <div class="block">
-                <div class="card bg-template shadow mt-4 h-190">
-                    <div class="card-content card-content-padding">
+                <div class="card h-190" style="background-image: url(../img/banner.png);background-size: cover;background-position-y: -15px;">
+                    <div class="card-content card-content-padding"> 
                         <div class="row">
-                            <div class="col-auto">
-                                <figure class="avatar avatar-60"><img src="img/user1.png" alt=""></figure>
+                            <div class="col-50">
+                                <p style="font-weight: 700;" class="text-color-blue">Best LMS Platform to Learn Everything From One Place</p>
                             </div>
-                            <div class="col pl-0 align-self-center">
-                                <h5 class="mb-1 mt-0">Ammy Jahnson</h5>
-                                <p class="text-mute small my-0">Work, London, UK</p>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-50">
+                                <a href="" class="button button-fill color-orange" style="font-size: 13px;"><p>Explore Course</p></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="block top-124">
-                <div class="card mb-4 shadow">
-                    <div class="card-content card-content-padding border-bottom">
-                        <div class="row">
-                            <div class="col">
-                                <h3 class="my-0 font-weight-normal">$ 1548.00</h3>
-                                <p class="text-mute my-0">My Balance</p>
-                            </div>
-                            <div class="col-auto">
-                                <button class="button button-fill button-raised color-default button-rounded-54 popup-open" data-popup=".addmoney"><i class="material-icons">add</i></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-content card-content-padding bg-none">
-                        <div class="row">
-                            <div class="col">
-                                <p>71.00 <i class="material-icons text-color-red vm small">arrow_downward</i><br><small class="text-mute">INR</small></p>
-                            </div>
-                            <div class="col text-align-center">
-                                <p>1.00 <i class="material-icons text-color-green vm small">arrow_upward</i><br><small class="text-mute">USD</small></p>
-                            </div>
-                            <div class="col text-align-right">
-                                <p><i class="material-icons text-color-green vm small mr-1">arrow_upward</i>0.78<br><small class="text-mute">GBP</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Top Listed Categories -->
             <div class="block">
                 <div class="row">
-                    <div class="swiper-container icon-slide swiper-init" data-space-between="0" data-slides-per-view="auto">
-                        <div class="swiper-wrapper">
-                            <a href="" class="swiper-slide text-align-center popup-open" data-popup=".paymoney">
-                                <div class="avatar avatar-50 no-shadow border-0 link">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons text-template">local_atm</i>
-                                </div>
-                                <p class="small mt-2">Pay</p>
-                            </a>
-                            <a href="" class="swiper-slide text-align-center popup-open" data-popup=".sendmoney">
-                                <div class="avatar avatar-50 no-shadow border-0 link">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons text-template">send</i>
-                                </div>
-                                <p class="small mt-2">Send</p>
-                            </a>
-                            <a href="" class="swiper-slide text-align-center">
-                                <div class="avatar avatar-50 no-shadow border-0 link popup-open" data-popup=".bookpopup">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons text-template">directions_railway</i>
-                                </div>
-                                <p class="small mt-2">Book</p>
-                            </a>
-                            <a href="" class="swiper-slide text-align-center">
-                                <div class="avatar avatar-50 no-shadow border-0 link">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons text-template">assignment</i>
-                                </div>
-                                <p class="small mt-2">Bills</p>
-                            </a>
-                            <a href="" class="swiper-slide text-align-center">
-                                <div class="avatar avatar-50 no-shadow border-0 link">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons text-template">camera</i>
-                                </div>
-                                <p class="small mt-2">Scan</p>
-                            </a>
-                        </div>
-                        <div class="swiper-pagination"></div>
+                    <div class="col-75">
+                        <p class="text-mute"><strong>Top Listed Category</strong></p>
                     </div>
-                </div>
-            </div>
-       
-            <div class="block px-0">
-                <!-- Swiper -->
-                <div class="swiper-container two-slide swiper-init" data-pagination='{"el": ".swiper-pagination"}' data-space-between="0" data-slides-per-view="2">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="card shadow border-0">
-                                <div class="card-content card-content-padding">
-                                    <div class="row no-gutters h-100">
-                                        <div class="col-8">
-                                            <p>$ 1548.00<br><small class="text-secondary">Home Loan EMI</small></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card shadow border-0">
-                                <div class="card-content card-content-padding">
-                                    <div class="row no-gutters h-100">
-                                        <div class="col-8">
-                                            <p>$ 1548.00<br><small class="text-secondary">Cash Loan EMI</small></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card shadow border-0">
-                                <div class="card-content card-content-padding">
-                                    <div class="row no-gutters h-100">
-                                        <div class="col-8">
-                                            <p>$ 1548.00<br><small class="text-secondary">Car Loan EMI</small></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card shadow border-0">
-                                <div class="card-content card-content-padding">
-                                    <div class="row no-gutters h-100">
-                                        <div class="col-8">
-                                            <p>$ 1548.00<br><small class="text-secondary">Business Loan EMI</small></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card shadow border-0">
-                                <div class="card-content card-content-padding">
-                                    <div class="row no-gutters h-100">
-                                        <div class="col-8">
-                                            <p>$ 1548.00<br><small class="text-secondary">Edu Loan EMI</small></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card shadow border-0">
-                                <div class="card-content card-content-padding">
-                                    <div class="row no-gutters h-100">
-                                        <div class="col-8">
-                                            <p>$ 1548.00<br><small class="text-secondary">Home Loan EMI</small></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-            <div class="block px-0">
-                <!-- Swiper -->
-                <div class="swiper-container offer-slide swiper-init" data-space-between="0" data-slides-per-view="auto">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="card shadow border-0 bg-template mt-0 mb-3">
-                                <div class="card-content card-content-padding py-2 link o-hidden">
-                                    <div class="row">
-                                        <div class="col-auto pr-0">
-                                            <img src="img/graphics-carousel-scheme1.png" alt="" class="mw-100">
-                                        </div>
-                                        <div class="col align-self-center">
-                                            <h5 class="mb-0 mt-0 font-weight-normal">Gold loan scheme</h5>
-                                            <p class="text-mute mt-1">Get all money at market rate of gold</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="card shadow border-0 bg-template mt-0 mb-3">
-                                <div class="card-content card-content-padding py-2 link o-hidden">
-                                    <div class="row">
-                                        <div class="col pr-0 align-self-center">
-                                            <h5 class="mb-0 mt-0 font-weight-normal">Gold loan scheme</h5>
-                                            <p class="text-mute mt-1">Get all money at market rate of gold</p>
-                                        </div>
-                                        <div class="col-auto">
-                                            <img src="img/graphics-carousel-scheme1.png" alt="" class="mw-100">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <h6 class="block-title">Upcoming Payments <a href="allpayment.html" class="float-right small">View All</a></h6>
-            <div class="block">
-                <div class="card shadow border-0 mb-3">
-                    <div class="card-content card-content-padding">
-                        <div class="row">
-                            <div class="col">
-                                <h5 class="font-weight-normal my-0">$ 1548.00 </h5>
-                                <p class="text-mute small text-secondary mt-1 mb-2">20d to pay electricity bill</p>
-                                <div class="progressbar color-green h-2" data-progress="50">
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="col-auto pl-0">
-                                <button class="avatar avatar-50 no-shadow border-0 bg-template link">
-                                    <i class="material-icons">local_atm</i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card shadow border-0 mb-3">
-                    <div class="card-content card-content-padding">
-                        <div class="row">
-                            <div class="col">
-                                <h5 class="font-weight-normal my-0">$ 106.00 <span class="badge color-red small vm text-white">Prior</span></h5>
-                                <p class="text-mute small text-secondary mt-1 mb-2">33 days to pay gas bill</p>
-                                <div class="progressbar color-red h-2" data-progress="60">
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="col-auto pl-0">
-                                <button class="avatar avatar-50 no-shadow border-0 bg-template link">
-                                    <i class="material-icons">local_atm</i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h6 class="block-title">Recent Messages</h6>
-            <div class="block">
-                <div class="card shadow border-0 mb-3">
-                    <div class="card-content card-content-padding">
-                        <div class="row align-items-center">
-                            <div class="col-auto pr-0">
-                                <div class="avatar avatar-50 no-shadow border-0">
-                                    <img src="img/user1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <h6 class="font-weight-normal mb-1 mt-0">Mrs. Magon Johnson </h6>
-                                <p class="text-mute small text-secondary mt-1">"Thank you for your purchase with our shop and making online payment."</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-content border-top bg-none">
-                        <div class="list inset">
-                            <ul>
-                                <li class="item-content item-input">
-                                    <div class="item-inner">
-                                        <div class="item-input-wrap">
-                                            <input type="text" placeholder="Quick reply">
-                                            <span class="input-clear-button"></span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="card shadow border-0 mb-3">
-                    <div class="card-content card-content-padding">
-                        <div class="row align-items-center">
-                            <div class="col-auto pr-0">
-                                <div class="avatar avatar-50 no-shadow border-0">
-                                    <img src="img/user2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <h6 class="font-weight-normal mb-1 mt-0">Ms. Shivani Dilux</h6>
-                                <p class="text-mute small text-secondary mt-1">"Thank you for your purchase with our shop and making online payment."</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h6 class="block-title">Loan Status </h6>
-            <div class="block">
-                <div class="card shadow border-0 mb-3">
-                    <div class="card-content card-content-padding">
-                        <div class="row align-items-center">
-                            <div class="col-auto pr-0">
-                                <div class="avatar avatar-50 no-shadow border-0">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons vm text-template">local_atm</i>
-                                </div>
-                            </div>
-                            <div class="col-auto pr-0 align-self-center">
-                                <h6 class="font-weight-normal mb-1 mt-0">EMI</h6>
-                                <p class="text-mute small text-secondary mt-1">Home Loan</p>
-                            </div>
-                            <div class="col-auto align-self-center border-left">
-                                <h6 class="font-weight-normal mb-1 mt-0">$ 1548.00</h6>
-                                <p class="text-mute small text-secondary mt-1">Due: 15-12-2019</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card shadow border-0 mb-3">
-                    <div class="card-content card-content-padding">
-                        <div class="row align-items-center">
-                            <div class="col-auto pr-0">
-                                <div class="avatar avatar-50 no-shadow border-0">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons vm text-template">local_atm</i>
-                                </div>
-                            </div>
-                            <div class="col-auto pr-0 align-self-center">
-                                <h6 class="font-weight-normal mb-1 mt-0">EMI</h6>
-                                <p class="text-mute small text-secondary mt-1">Car Loan</p>
-                            </div>
-                            <div class="col-auto align-self-center border-left">
-                                <h6 class="font-weight-normal mb-1 mt-0">$ 658.00</h6>
-                                <p class="text-mute small text-secondary mt-1">Due: 18-12-2019</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h6 class="block-title">News Updates</h6>
-            <div class="block">
-                <!-- Swiper -->
-                <div class="swiper-container news-slide swiper-init" data-pagination='{"el": ".swiper-pagination"}' data-space-between="20" data-slides-per-view="2">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="card shadow-sm border-0 bg-dark text-white">
-                                <figure class="background">
-                                    <img src="img/product2.jpg" alt="">
-                                </figure>
-                                <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default"><i class="material-icons md-18">arrow_forward</i></a>
-                                    <h5 class="small mt-0">Multipurpose Juice allows you to grow faster</h5>
-                                    <p class="text-mute small">By Anand Mangal</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card shadow-sm border-0 bg-dark text-white">
-                                <figure class="background">
-                                    <img src="img/product3.jpg" alt="">
-                                </figure>
-                                <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default"><i class="material-icons md-18">arrow_forward</i></a>
-                                    <h5 class="small mt-0">Multipurpose Juice allows you to grow faster</h5>
-                                    <p class="text-mute small">By Anand Mangal</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card shadow-sm border-0 bg-dark text-white">
-                                <figure class="background">
-                                    <img src="img/product2.jpg" alt="">
-                                </figure>
-                                <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default"><i class="material-icons md-18">arrow_forward</i></a>
-                                    <h5 class="small mt-0">Multipurpose Juice allows you to grow faster</h5>
-                                    <p class="text-mute small">By Anand Mangal</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card shadow-sm border-0 bg-dark text-white">
-                                <figure class="background">
-                                    <img src="img/product3.jpg" alt="">
-                                </figure>
-                                <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default"><i class="material-icons md-18">arrow_forward</i></a>
-                                    <h5 class="small mt-0">Multipurpose Juice allows you to grow faster</h5>
-                                    <p class="text-mute small">By Anand Mangal</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card shadow-sm border-0 bg-dark text-white">
-                                <figure class="background">
-                                    <img src="img/product2.jpg" alt="">
-                                </figure>
-                                <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default"><i class="material-icons md-18">arrow_forward</i></a>
-                                    <h5 class="small mt-0">Multipurpose Juice allows you to grow faster</h5>
-                                    <p class="text-mute small">By Anand Mangal</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card shadow-sm border-0 bg-dark text-white">
-                                <figure class="background">
-                                    <img src="img/product3.jpg" alt="">
-                                </figure>
-                                <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default"><i class="material-icons md-18">arrow_forward</i></a>
-                                    <h5 class="small mt-0">Multipurpose Juice allows you to grow faster</h5>
-                                    <p class="text-mute small">By Anand Mangal</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-            <div class="block bg-template">
-                <div class="row">
-                    <div class="col text-align-center">
-                        <h5 class="subtitle mb-1">Most Exciting Feature</h5>
-                        <p class="text-mute">Take a look at our services</p>
+                    <div class="col-25">
+                        <button class="button button-fill color-orange">More</button>
                     </div>
                 </div>
                 <div class="row text-align-center mt-4 color-black">
                     <div class="col">
-                        <div class="card shadow border-0 mb-4">
+                        <div class="card shadow border-0 mb-4" style="background: #fee2de;">
                             <div class="card-content card-content-padding">
-                                <div class="avatar avatar-50 no-shadow border-0">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons vm md-36 text-template">card_giftcard</i>
+                                <div class="no-shadow border-0">
+                                    <img src="../img/s1.png" alt="" style="width:140px;height: 100px;">
                                 </div>
-                                <h3 class="mt-3 mb-0 font-weight-normal text-color-black">2546</h3>
-                                <p class="text-secondary mt-1 text-mute small">Gift it out</p>
+                                <p class="mt-1 text-mute medium text-color-blue"><strong>Basic Grammers</strong></p>
+                                <p class="text-secondary mt-1 text-mute small">15 Courses</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card shadow border-0 mb-4">
+                        <div class="card shadow border-0 mb-4" style="background: #feddee;">
                             <div class="card-content card-content-padding">
-                                <div class="avatar avatar-50 no-shadow border-0">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons vm md-36 text-template">subscriptions</i>
+                                <div class="no-shadow border-0">
+                                    <img src="../img/s2.png" alt="" style="width:140px;height: 100px;">
                                 </div>
-                                <h3 class="mt-3 mb-0 font-weight-normal text-color-black">635</h3>
-                                <p class="text-secondary mt-1 text-mute small">Monthly Billed</p>
+                                <p class="mt-1 text-mute medium text-color-blue"><strong>Higher Study</strong></p>
+                                <p class="text-secondary mt-1 text-mute small">12 Courses</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row text-align-center color-black">
                     <div class="col">
-                        <div class="card shadow border-0 mb-4">
+                        <div class="card shadow border-0 mb-4" style="background: #dad5fe;">
                             <div class="card-content card-content-padding">
-                                <div class="avatar avatar-50 no-shadow border-0">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons vm md-36 text-template">local_florist</i>
+                                <div class="no-shadow border-0">
+                                    <img src="../img/s3.png" alt="" style="width:140px;height: 100px;">
                                 </div>
-                                <h3 class="mt-3 mb-0 font-weight-normal text-color-black">1542</h3>
-                                <p class="text-secondary mt-1 text-mute small">Eco environment</p>
+                                <p class="mt-1 text-mute medium text-color-blue"><strong>Machine Learning</strong></p>
+                                <p class="text-secondary mt-1 text-mute small">05 Courses</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card shadow border-0 mb-4">
+                        <div class="card shadow border-0 mb-4" style="background: #dbffd9;">
                             <div class="card-content card-content-padding">
-                                <div class="avatar avatar-50 no-shadow border-0">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons vm md-36 text-template">location_city</i>
+                                <div class="no-shadow border-0">
+                                    <img src="../img/s4.png" alt="" style="width:140px;height: 100px;">
                                 </div>
-                                <h3 class="mt-3 mb-0 font-weight-normal text-color-black">154</h3>
-                                <p class="text-secondary mt-1 text-mute small">Four Offices</p>
+                                <p class="mt-1 text-mute medium text-color-blue"><strong>Pharmacy</strong></p>
+                                <p class="text-secondary mt-1 text-mute small">22 Courses</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <!-- What Our Platform Provide -->
+            <div class="block">
+                <div class="row">
+                    <div class="col-75">
+                        <p class="text-mute"><strong>What Our Platform Provide</strong></p>
+                    </div>
+                    <div class="col-25">
+                        <button class="button button-fill color-orange">More</button>
+                    </div>
+                </div>
+                <div class="row text-align-center mt-4 color-black">
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" style="background: #544df3;">
+                            <div class="card-content card-content-padding">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/icon1.png" alt="" style="width:60px;height: 60px;">
+                                </div>
+                                <p class="mt-1 text-mute small text-color-white"><strong>Certificates</strong></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" style="background: #ff505d;">
+                            <div class="card-content card-content-padding">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/icon2.png" alt="" style="width:60px;height: 60px;">
+                                </div>
+                                <p class="mt-1 text-mute small text-color-white"><strong>Courses</strong></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" style="background: #ffad3d;">
+                            <div class="card-content card-content-padding">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/icon3.png" alt="" style="width:60px;height: 60px;">
+                                </div>
+                                <p class="mt-1 text-mute small text-color-white"><strong>Programs</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="block">
+                <div class="row">
+                    <div class="col-75">
+                        <p class="text-mute"><strong>Recent Uploaded Courses</strong></p>
+                    </div>
+                    <div class="col-25">
+                        <button class="button button-fill color-orange">More</button>
+                    </div>
+                </div>
+                <div class="row text-align-center mt-4 color-black">
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" style="background: #fee2de;">
+                            <div class="card-content card-content-padding">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/s1.png" alt="" style="width:140px;height: 100px;">
+                                </div>
+                                <p class="mt-1 text-mute medium text-color-blue"><strong>Basic Grammers</strong></p>
+                                <p class="text-secondary mt-1 text-mute small">15 Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" style="background: #feddee;">
+                            <div class="card-content card-content-padding">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/s2.png" alt="" style="width:140px;height: 100px;">
+                                </div>
+                                <p class="mt-1 text-mute medium text-color-blue"><strong>Higher Study</strong></p>
+                                <p class="text-secondary mt-1 text-mute small">12 Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-align-center color-black">
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" style="background: #dad5fe;">
+                            <div class="card-content card-content-padding">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/s3.png" alt="" style="width:140px;height: 100px;">
+                                </div>
+                                <p class="mt-1 text-mute medium text-color-blue"><strong>Machine Learning</strong></p>
+                                <p class="text-secondary mt-1 text-mute small">05 Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" style="background: #dbffd9;">
+                            <div class="card-content card-content-padding">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/s4.png" alt="" style="width:140px;height: 100px;">
+                                </div>
+                                <p class="mt-1 text-mute medium text-color-blue"><strong>Pharmacy</strong></p>
+                                <p class="text-secondary mt-1 text-mute small">22 Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Uploaded Courses -->
+            <div class="block">
+                <div class="row">
+                    <div class="col-75">
+                        <p class="text-mute"><strong>Recent Uploaded Courses</strong></p>
+                    </div>
+                    <div class="col-25">
+                        <button class="button button-fill color-orange">More</button>
+                    </div>
+                </div>
+                <div class="card shadow border-0 mb-3">
+                    <div class="card-content card-content-padding">
+                        <div class="row align-items-center">
+                            <div class="col-25">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/course6.png" alt="" style="height: 70px; width: 70px;">
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                <h6 class="font-weight-normal small mb-1 mt-0"><strong>Essential HTML Course</strong></h6>
+                                <p class="text-mute small text-secondary"><i class="material-icons" style="font-size: 17px;">access_alarm</i> 3 Months <i class="material-icons" style="font-size: 17px;">access_alarm</i> 3 Hours</p>
+                            </div>
+                            <div class="col-25 align-items-center">
+                                <p class="mb-1 mt-0"><strong>$24</strong></p>
+                                <p style="color: gold;font-size:smaller;"> 
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow border-0 mb-3">
+                    <div class="card-content card-content-padding">
+                        <div class="row align-items-center">
+                            <div class="col-25">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/course7.png" alt="" style="height: 70px; width: 70px;">
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                <h6 class="font-weight-normal small mb-1 mt-0"><strong>Essential CSS Course</strong></h6>
+                                <p class="text-mute small text-secondary"><i class="material-icons" style="font-size: 17px;">access_alarm</i> 3 Months <i class="material-icons" style="font-size: 17px;">access_alarm</i> 3 Hours</p>
+                            </div>
+                            <div class="col-25 align-items-center">
+                                <p class="mb-1 mt-0"><strong>$24</strong></p>
+                                <p style="color: gold;font-size:smaller;"> 
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow border-0 mb-3">
+                    <div class="card-content card-content-padding">
+                        <div class="row align-items-center">
+                            <div class="col-25">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/course8.png" alt="" style="height: 70px; width: 70px;">
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                <h6 class="font-weight-normal small mb-1 mt-0"><strong>Bootstrap Course</strong></h6>
+                                <p class="text-mute small text-secondary"><i class="material-icons" style="font-size: 17px;">access_alarm</i> 3 Months <i class="material-icons" style="font-size: 17px;">access_alarm</i> 3 Hours</p>
+                            </div>
+                            <div class="col-25 align-items-center">
+                                <p class="mb-1 mt-0"><strong>$24</strong></p>
+                                <p style="color: gold;font-size:smaller;"> 
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow border-0 mb-3">
+                    <div class="card-content card-content-padding">
+                        <div class="row align-items-center">
+                            <div class="col-25">
+                                <div class="no-shadow border-0">
+                                    <img src="../img/course9.png" alt="" style="height: 70px; width: 70px;">
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                <h6 class="font-weight-normal small mb-1 mt-0"><strong>Angular Course</strong></h6>
+                                <p class="text-mute small text-secondary"><i class="material-icons" style="font-size: 17px;">access_alarm</i> 3 Months <i class="material-icons" style="font-size: 17px;">access_alarm</i> 3 Hours</p>
+                            </div>
+                            <div class="col-25 align-items-center">
+                                <p class="mb-1 mt-0"><strong>$24</strong></p>
+                                <p style="color: gold;font-size:smaller;"> 
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <footer>
+                    <div class="container">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                        <p>Copyright © All Right Reserved</p>
+                    </div>
+                </footer> -->
+            </div>            
         </div>
         <div id="tab-2" class="page-content tab">
             <div class="block mb-0">

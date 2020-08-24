@@ -7,7 +7,7 @@
         </div>
     </div>
     <div class="page-content">
-        <div class="row h-100 mx-0">
+        <div class="row h-100 mx-0 top-124">
             <div class="col align-self-center px-3 text-align-center align-self-center padding-horizontal-half">
                 <img src="img/logo-login.png" alt="logo" class="logo-small">
                 <form class="form-signin mb-4">
@@ -17,7 +17,7 @@
                                 <div class="item-inner no-padding-horizontal">
                                     <!-- "item-floating-label" class on item title -->
                                     <div class="item-title item-floating-label">Username</div>
-                                    <div class="item-input-wrap">
+                                    <div class="row item-input-wrap">
                                         <input type="text" name="name">
                                         <span class="input-clear-button"></span>
                                     </div>
@@ -35,30 +35,23 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="form-group margin-vertical text-align-left">
-                        <label class="checkbox">
-                            <!-- checkbox input -->
-                            <input type="checkbox">
-                            <!-- checkbox icon -->
-                            <i class="icon-checkbox"></i>
-                        </label>
-                        Remember Me
-                    </div>
                     <br>
                     <div class="row">
-                        <div class="col text-align-center">
-                            <a href="/forgotpassword/">Forgot Password?</a>
-                        </div>
+                        <div class="col">
+                            <a href="/homepage/" class="button button-raised button-fill button-large color-default">Login</a>
+                        </div>                
                     </div>
                 </form>              
             </div>
         </div>
-        <!-- login buttons -->
-        <div class="block bottom-button-container">
-            <div class="row">
-                <div class="col">
-                    <a href="/homepage/" class="button button-raised button-fill button-large button-round color-default">Login</a>
-                </div>                
+        <!-- Forgot Password -->
+        <div class="block top-124">
+            <div class="col text-align-center">
+                <a href="/forgotpassword/">Forgot Password?</a>
+            </div>
+            <br>
+            <div class="col text-align-center">
+                <p>Dont you haven't account yet? <a href="/signup/">Sign Up</a></p>
             </div>
         </div>
         <!-- login buttons -->

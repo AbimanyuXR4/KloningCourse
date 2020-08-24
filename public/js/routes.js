@@ -8,8 +8,7 @@ var routes = [
   // About page
   {
     path: '/about/',
-    url: './pages/about.html',
-    name: 'about',
+    url: '../pages/about.html',
   },
   // Right Panel pages
   {
