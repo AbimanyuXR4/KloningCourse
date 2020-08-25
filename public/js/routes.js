@@ -8,7 +8,8 @@ var routes = [
   // About page
   {
     path: '/about/',
-    url: '../pages/about.html',
+    url: './pages/about.html',
+    name: 'about'
   },
   // Right Panel pages
   {
@@ -62,6 +63,17 @@ var routes = [
     ',
   },
 
+  //Course List
+  {
+    path: '/courseList/',
+    url: './pages/course-list.html',
+  },
+
+  //Course Detail
+  {
+    path: '/courseDetail/',
+    url: './pages/course-detail.html',
+  },
   // Components
   {
     path: '/accordion/',
