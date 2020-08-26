@@ -74,6 +74,13 @@ var routes = [
     path: '/courseDetail/',
     url: './pages/course-detail.html',
   },
+
+  //Basket
+  {
+    path: '/courseBasket/',
+    url: './pages/basket.html',
+  },
+
   // Components
   {
     path: '/accordion/',
